@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Formulario</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/1bc5c12fcb.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form action="actividad2BD.html">
+                    <div class="row">
+                        <div class="col-md-4 mb-2">
+                            <label for="nombrePila">Nombre de pila</label>
+                            <input type="text" class="form-control" id="nombrePila" required>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" class="form-control" id="apellido" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8 mb-2">
+                            <label for="usuario">Nombre de usuario</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">@</div>
+                                </div>
+                                <input type="text" class="form-control" id="nombreUsuario"
+                                    placeholder="Nombre de usuario">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 mb-3">
+                            <label for="email">Correo Electronico <span class="text-muted"> (Opcional)</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 mb-3">
+                            <label for="hablaA">Habla a </label>
+                            <input type="text" class="form-control" id="habla" placeholder="1234 Main St">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8 mb-3">
+                            <label for="dire2">Dirección 2 <span class="text-muted"> (Opcional)</span> </label>
+                            <input type="text" class="form-control" id="dire2" placeholder="Apartamento o Suite">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <label for="ciudad">País</label>
+                            <select class="custom-select" id="ciudad">
+                                <option selected disabled value="">Escoger...</option>
+                                <option>Argentina</option>
+                                <option>Brasil</option>
+                                <option>Canada</option>
+                                <option>Mexico</option>
+
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="nacionalidad">Estado</label>
+                            <select class="custom-select" id="nacionalidad" required>
+                                <option selected disabled value="">Escoger...</option>
+                                <option>Buenos Aires</option>
+                                <option>Rosario</option>
+                                <option>Mendoza</option>
+                                <option>Jujuy</option>
+
+                            </select>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="cp">Código Postal </label>
+                            <input type="text" class="form-control" id="cp">
+                        </div>
+                    </div>
+
+                    <div class="form-group col-8">
+                        <hr>
+               </div>
+
+                    <div class="row">
+                        <div class="col-md-8 mb-0">
+                            <input class="form-check-input" type="checkbox" value="" id="direccion">
+                            <label class="form-check-label" for="invalidCheck2">
+                                La dirección de envío es la misma que mi dirección de facturación
+                            </label>
+                        </div>
+                        <div class="col-md-8 mb-0">
+                            <input class="form-check-input" type="checkbox" value="" id="guardarInfo">
+                            <label class="form-check-label" for="invalidCheck2">
+                                Guarde esta información para la próxima vez
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-8">
+                        <hr>
+               </div>
+                    
+            </div>
+      
+
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
